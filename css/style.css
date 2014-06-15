@@ -236,7 +236,7 @@ p a {
 .features > div img {
 	float: left;
 	margin-right: 20px;
-	margin-top: 36px;
+	margin-top: 5px;
 }
 .date {
 	float: left;
@@ -293,7 +293,6 @@ p a {
 /** sidebar **/
 .sidebar {
 	float: left;
-	min-height: 848px;
 	width: 216px;
 	margin-left: 20px;
 }
