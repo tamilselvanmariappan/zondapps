@@ -1,6 +1,6 @@
 ﻿// Constants **********Start
-//var ServiceURL = "http://znodd.cloudapp.net:86/zUcmService.asmx";
-var ServiceURL = "http://localhost:81/zUcmService.asmx";
+var ServiceURL = "http://znodd.cloudapp.net:86/zUcmService.asmx";
+//var ServiceURL = "http://localhost:81/zUcmService.asmx";
 // Methods *********Start
 function commonAjaxCall(methodName, input) {
     var output = "";
@@ -34,8 +34,8 @@ function commonAjaxCall(methodName, input) {
 
 //Z Alert method
 function zAlert(title, message) {
-    $('#zAlertMessage').text(message);
-    LoadJqueryPopup('#zAlert', '300', title, true);
+   // $('#zAlertMessage').text(message);
+    alert(message);
 }
 
 function LoadJqueryPopup(selector, _widthparam, _titleparam, isOpen) {

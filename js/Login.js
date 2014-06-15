@@ -4,7 +4,6 @@ $(document).ready(function () {
     $("#username").focus();
 
     $("#btnSubmit").click(function () {
-	alert('');
         var User = "";
         try {
             var loginId = $("#username").val();
