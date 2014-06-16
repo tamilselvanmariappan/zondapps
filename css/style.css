@@ -66,7 +66,7 @@ img {
 	color: #000;
 	display: block;
 	font: 15px/30px 'Play';
-	height: 150px;
+	height: 40px;
 	width: 275px;
 	padding-top: 68px;
 	text-decoration: none;
@@ -189,6 +189,7 @@ text-decoration:none;
 
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
+background: url(../images/bg-adbox.jpg) repeat-x left top;
 	min-height: 370px;
 	width: 880px;
 	margin: 0 auto;
